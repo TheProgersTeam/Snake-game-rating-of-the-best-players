@@ -20,4 +20,9 @@ About the game 👾
 4. write the command "python manage.py runserver"
 5. then, in the "Snake Game" folder, run the file "Snake.py"
 
+👉 Test data for Django Admin:
+
+login: admin
+pass: 12344321
+
 Made with ❤️ by TheProgersTeam
