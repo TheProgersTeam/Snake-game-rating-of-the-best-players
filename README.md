@@ -22,7 +22,7 @@ About the game 👾
 
 👉 Test data for Django Admin:
 
-login: admin
-pass: 12344321
+1. login: admin
+2. pass: 12344321
 
 Made with ❤️ by TheProgersTeam
