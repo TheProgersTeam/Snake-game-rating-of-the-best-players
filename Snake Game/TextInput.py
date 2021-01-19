@@ -1,6 +1,5 @@
 import pygame as pg
 
-
 pg.init()
 screen = pg.display.set_mode((10, 10))
 COLOR_INACTIVE = pg.Color(0, 0, 0)
@@ -42,11 +41,11 @@ class InputBox:
 
     def update(self):
         # Resize the box if the text is too long.
-        width = max(200, self.txt_surface.get_width()+10)
+        width = max(200, self.txt_surface.get_width() + 10)
         self.rect.w = width
 
     def draw(self, screen):
         # Blit the text.
-        screen.blit(self.txt_surface, (self.rect.x+5, self.rect.y+5))
+        screen.blit(self.txt_surface, (self.rect.x + 5, self.rect.y + 5))
         # Blit the rect.
         pg.draw.rect(screen, self.color, self.rect, 2)
