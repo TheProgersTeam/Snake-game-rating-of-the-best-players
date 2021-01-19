@@ -12,4 +12,12 @@ About the game 👾
 2. Django and DjangoRestFrameWork - to implement the server side of the project.
 3. Library Requests - To communicate with a remote server by sending it GET and POST requests.
 
+👉 Follow these steps to run the project:
+
+1. in the console go to the "Snake-game-rating-of-the-best-players-main" folder
+2. write the command "pip install -r requirements.txt"
+3. then, in the console go to the "Server" folder
+4. write the command "python manage.py runserver"
+5. then, in the "Snake Game" folder, run the file "Snake.py"
+
 Made with ❤️ by TheProgersTeam
