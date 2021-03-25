@@ -24,5 +24,3 @@ About the game 👾
 
 1. login: admin
 2. pass: 12344321
-
-Made with ❤️ by TheProgersTeam
