@@ -1,0 +1,562 @@
+[
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "url",
+        "importPath": "django.conf.urls",
+        "description": "django.conf.urls",
+        "isExtraImport": true,
+        "detail": "django.conf.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.conf.urls",
+        "description": "django.conf.urls",
+        "isExtraImport": true,
+        "detail": "django.conf.urls",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "pygame",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pygame",
+        "description": "pygame",
+        "detail": "pygame",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "InputBox",
+        "importPath": "TextInput",
+        "description": "TextInput",
+        "isExtraImport": true,
+        "detail": "TextInput",
+        "documentation": {}
+    },
+    {
+        "label": "Requests",
+        "importPath": "Requests",
+        "description": "Requests",
+        "isExtraImport": true,
+        "detail": "Requests",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "Server.MainApp.migrations.0001_initial",
+        "description": "Server.MainApp.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Records',\n            fields=[\n                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('player', models.CharField(blank=True, max_length=50)),",
+        "detail": "Server.MainApp.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "MainappConfig",
+        "kind": 6,
+        "importPath": "Server.MainApp.apps",
+        "description": "Server.MainApp.apps",
+        "peekOfCode": "class MainappConfig(AppConfig):\n    name = 'MainApp'",
+        "detail": "Server.MainApp.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Records",
+        "kind": 6,
+        "importPath": "Server.MainApp.models",
+        "description": "Server.MainApp.models",
+        "peekOfCode": "class Records(models.Model):\n    player = models.CharField(max_length=50, null=False, blank=True)  # Player\n    score = models.IntegerField(null=False, blank=True)  # Score\n    class Meta:\n        verbose_name = 'Records'\n        verbose_name_plural = 'Records'",
+        "detail": "Server.MainApp.models",
+        "documentation": {}
+    },
+    {
+        "label": "RecordSerializer",
+        "kind": 6,
+        "importPath": "Server.MainApp.serializers",
+        "description": "Server.MainApp.serializers",
+        "peekOfCode": "class RecordSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Records\n        fields = ('player', 'score')\n    def create(self, validated_data):\n        model = Records(\n            player=validated_data['player'],\n            score=validated_data['score'],\n        )\n        model.save()",
+        "detail": "Server.MainApp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "Server.MainApp.urls",
+        "description": "Server.MainApp.urls",
+        "peekOfCode": "urlpatterns = [\n    path('api/add/', Add.as_view()),\n    path('api/get/', Get.as_view()),\n]",
+        "detail": "Server.MainApp.urls",
+        "documentation": {}
+    },
+    {
+        "label": "Add",
+        "kind": 6,
+        "importPath": "Server.MainApp.views",
+        "description": "Server.MainApp.views",
+        "peekOfCode": "class Add(APIView):\n    def post(self, request):\n        data = request.data.get(\"data\")\n        serializer = RecordSerializer(data=data)\n        if serializer.is_valid(raise_exception=True):\n            serializer.save()\n        return Response({\"data\": \"OK\"})\nclass Get(APIView):\n    def get(self, request):\n        data = Records.objects.all().order_by('-score')",
+        "detail": "Server.MainApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "Get",
+        "kind": 6,
+        "importPath": "Server.MainApp.views",
+        "description": "Server.MainApp.views",
+        "peekOfCode": "class Get(APIView):\n    def get(self, request):\n        data = Records.objects.all().order_by('-score')\n        records, n = {}, 1\n        for i in data:\n            records.update({n: {'player': i.player, 'score': i.score}})\n            n += 1\n            if n > 7:\n                break\n        return Response(records)",
+        "detail": "Server.MainApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "Server.Server.settings",
+        "description": "Server.Server.settings",
+        "peekOfCode": "BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = '@o1mo8a7b%bt8hk%b4k1vwr*i2_2@wpy#vk@8d8&!)eyq5gh%5'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "Server.Server.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "Server.Server.settings",
+        "description": "Server.Server.settings",
+        "peekOfCode": "SECRET_KEY = '@o1mo8a7b%bt8hk%b4k1vwr*i2_2@wpy#vk@8d8&!)eyq5gh%5'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "Server.Server.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "Server.Server.settings",
+        "description": "Server.Server.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "Server.Server.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "Server.Server.settings",
+        "description": "Server.Server.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',",
+        "detail": "Server.Server.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "Server.Server.settings",
+        "description": "Server.Server.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',\n    'MainApp',\n]",
+        "detail": "Server.Server.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "Server.Server.settings",
+        "description": "Server.Server.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'Server.urls'",
+        "detail": "Server.Server.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "Server.Server.settings",
+        "description": "Server.Server.settings",
+        "peekOfCode": "ROOT_URLCONF = 'Server.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "Server.Server.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "Server.Server.settings",
+        "description": "Server.Server.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "Server.Server.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "Server.Server.settings",
+        "description": "Server.Server.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'Server.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/2.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),\n    }\n}\n# Password validation",
+        "detail": "Server.Server.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "Server.Server.settings",
+        "description": "Server.Server.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "Server.Server.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "Server.Server.settings",
+        "description": "Server.Server.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "Server.Server.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "Server.Server.settings",
+        "description": "Server.Server.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/2.2/howto/static-files/\nSTATIC_URL = '/static/'",
+        "detail": "Server.Server.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "Server.Server.settings",
+        "description": "Server.Server.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/2.2/howto/static-files/\nSTATIC_URL = '/static/'",
+        "detail": "Server.Server.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "Server.Server.settings",
+        "description": "Server.Server.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/2.2/howto/static-files/\nSTATIC_URL = '/static/'",
+        "detail": "Server.Server.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_L10N",
+        "kind": 5,
+        "importPath": "Server.Server.settings",
+        "description": "Server.Server.settings",
+        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/2.2/howto/static-files/\nSTATIC_URL = '/static/'",
+        "detail": "Server.Server.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "Server.Server.settings",
+        "description": "Server.Server.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/2.2/howto/static-files/\nSTATIC_URL = '/static/'",
+        "detail": "Server.Server.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "Server.Server.settings",
+        "description": "Server.Server.settings",
+        "peekOfCode": "STATIC_URL = '/static/'",
+        "detail": "Server.Server.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "Server.Server.urls",
+        "description": "Server.Server.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('MainApp.urls')),\n]",
+        "detail": "Server.Server.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "Server.Server.wsgi",
+        "description": "Server.Server.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "Server.Server.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Server.manage",
+        "description": "Server.manage",
+        "peekOfCode": "def main():\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Server.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"\n        ) from exc",
+        "detail": "Server.manage",
+        "documentation": {}
+    },
+    {
+        "label": "Requests",
+        "kind": 6,
+        "importPath": "Snake Game.Requests",
+        "description": "Snake Game.Requests",
+        "peekOfCode": "class Requests:\n    #  We send the result of the player and his nickname\n    def Post(player, score):\n        url = \"http://127.0.0.1:8000/api/add/\"\n        payload = {\"data\": {\"player\": player, \"score\": score}}\n        headers = {'Content-Type': 'application/json'}\n        requests.request(\"POST\", url, headers=headers, json=payload)\n    #  We get a list of the best players\n    def Get():\n        url = \"http://127.0.0.1:8000/api/get/\"",
+        "detail": "Snake Game.Requests",
+        "documentation": {}
+    },
+    {
+        "label": "GameOver",
+        "kind": 2,
+        "importPath": "Snake Game.Snake",
+        "description": "Snake Game.Snake",
+        "peekOfCode": "def GameOver():\n    clock = pygame.time.Clock()\n    text_input = InputBox(380, 185, 140, 32)\n    done = False\n    while not done:\n        for event in pygame.event.get():\n            if event.type == pygame.QUIT:  # If the user clicks on the cross, the game is closed\n                pygame.quit()  # Closing the game\n                sys.exit()  # Closing the program\n            player = text_input.handle_event(event)",
+        "detail": "Snake Game.Snake",
+        "documentation": {}
+    },
+    {
+        "label": "Score",
+        "kind": 2,
+        "importPath": "Snake Game.Snake",
+        "description": "Snake Game.Snake",
+        "peekOfCode": "def Score(choice=0):\n    text = pygame.font.SysFont('monaco', 26).render('Score: {0}'.format(score), True,\n                                                    pygame.Color(0, 0, 0))  # Font color, size and family\n    text_position = text.get_rect()\n    if choice == 0:\n        text_position.midtop = (40, 10)  # Text position\n    else:\n        text_position.midtop = (480, 125)  # Text position after 'Game over'\n    display.blit(text, text_position)\n    pygame.display.flip()",
+        "detail": "Snake Game.Snake",
+        "documentation": {}
+    },
+    {
+        "label": "errors",
+        "kind": 5,
+        "importPath": "Snake Game.Snake",
+        "description": "Snake Game.Snake",
+        "peekOfCode": "errors = pygame.init()  # Errors\ndisplay = pygame.display.set_mode((960, 540))  # Window size\npygame.display.set_caption('Snake Game')  # Window title\nfps = pygame.time.Clock()  # FPS\nposition = [100, 50]  # Start position\nsnake = [[100, 50], [90, 50], [80, 50]]  # snake size\n#  generating food\nfood = [random.randrange(1, 95) * 10, random.randrange(1, 53) * 10]\nspawn = True\npointer, direction = 'DOWN', 'DOWN'  # The initial movement of the snake",
+        "detail": "Snake Game.Snake",
+        "documentation": {}
+    },
+    {
+        "label": "display",
+        "kind": 5,
+        "importPath": "Snake Game.Snake",
+        "description": "Snake Game.Snake",
+        "peekOfCode": "display = pygame.display.set_mode((960, 540))  # Window size\npygame.display.set_caption('Snake Game')  # Window title\nfps = pygame.time.Clock()  # FPS\nposition = [100, 50]  # Start position\nsnake = [[100, 50], [90, 50], [80, 50]]  # snake size\n#  generating food\nfood = [random.randrange(1, 95) * 10, random.randrange(1, 53) * 10]\nspawn = True\npointer, direction = 'DOWN', 'DOWN'  # The initial movement of the snake\nscore = 0  # Start score",
+        "detail": "Snake Game.Snake",
+        "documentation": {}
+    },
+    {
+        "label": "fps",
+        "kind": 5,
+        "importPath": "Snake Game.Snake",
+        "description": "Snake Game.Snake",
+        "peekOfCode": "fps = pygame.time.Clock()  # FPS\nposition = [100, 50]  # Start position\nsnake = [[100, 50], [90, 50], [80, 50]]  # snake size\n#  generating food\nfood = [random.randrange(1, 95) * 10, random.randrange(1, 53) * 10]\nspawn = True\npointer, direction = 'DOWN', 'DOWN'  # The initial movement of the snake\nscore = 0  # Start score\n#  'Game over' window\ndef GameOver():",
+        "detail": "Snake Game.Snake",
+        "documentation": {}
+    },
+    {
+        "label": "position",
+        "kind": 5,
+        "importPath": "Snake Game.Snake",
+        "description": "Snake Game.Snake",
+        "peekOfCode": "position = [100, 50]  # Start position\nsnake = [[100, 50], [90, 50], [80, 50]]  # snake size\n#  generating food\nfood = [random.randrange(1, 95) * 10, random.randrange(1, 53) * 10]\nspawn = True\npointer, direction = 'DOWN', 'DOWN'  # The initial movement of the snake\nscore = 0  # Start score\n#  'Game over' window\ndef GameOver():\n    clock = pygame.time.Clock()",
+        "detail": "Snake Game.Snake",
+        "documentation": {}
+    },
+    {
+        "label": "snake",
+        "kind": 5,
+        "importPath": "Snake Game.Snake",
+        "description": "Snake Game.Snake",
+        "peekOfCode": "snake = [[100, 50], [90, 50], [80, 50]]  # snake size\n#  generating food\nfood = [random.randrange(1, 95) * 10, random.randrange(1, 53) * 10]\nspawn = True\npointer, direction = 'DOWN', 'DOWN'  # The initial movement of the snake\nscore = 0  # Start score\n#  'Game over' window\ndef GameOver():\n    clock = pygame.time.Clock()\n    text_input = InputBox(380, 185, 140, 32)",
+        "detail": "Snake Game.Snake",
+        "documentation": {}
+    },
+    {
+        "label": "food",
+        "kind": 5,
+        "importPath": "Snake Game.Snake",
+        "description": "Snake Game.Snake",
+        "peekOfCode": "food = [random.randrange(1, 95) * 10, random.randrange(1, 53) * 10]\nspawn = True\npointer, direction = 'DOWN', 'DOWN'  # The initial movement of the snake\nscore = 0  # Start score\n#  'Game over' window\ndef GameOver():\n    clock = pygame.time.Clock()\n    text_input = InputBox(380, 185, 140, 32)\n    done = False\n    while not done:",
+        "detail": "Snake Game.Snake",
+        "documentation": {}
+    },
+    {
+        "label": "spawn",
+        "kind": 5,
+        "importPath": "Snake Game.Snake",
+        "description": "Snake Game.Snake",
+        "peekOfCode": "spawn = True\npointer, direction = 'DOWN', 'DOWN'  # The initial movement of the snake\nscore = 0  # Start score\n#  'Game over' window\ndef GameOver():\n    clock = pygame.time.Clock()\n    text_input = InputBox(380, 185, 140, 32)\n    done = False\n    while not done:\n        for event in pygame.event.get():",
+        "detail": "Snake Game.Snake",
+        "documentation": {}
+    },
+    {
+        "label": "score",
+        "kind": 5,
+        "importPath": "Snake Game.Snake",
+        "description": "Snake Game.Snake",
+        "peekOfCode": "score = 0  # Start score\n#  'Game over' window\ndef GameOver():\n    clock = pygame.time.Clock()\n    text_input = InputBox(380, 185, 140, 32)\n    done = False\n    while not done:\n        for event in pygame.event.get():\n            if event.type == pygame.QUIT:  # If the user clicks on the cross, the game is closed\n                pygame.quit()  # Closing the game",
+        "detail": "Snake Game.Snake",
+        "documentation": {}
+    },
+    {
+        "label": "InputBox",
+        "kind": 6,
+        "importPath": "Snake Game.TextInput",
+        "description": "Snake Game.TextInput",
+        "peekOfCode": "class InputBox:\n    def __init__(self, x, y, w, h, text=''):\n        self.rect = pg.Rect(x, y, w, h)\n        self.color = COLOR_INACTIVE\n        self.text = text\n        self.txt_surface = FONT.render(text, True, self.color)\n        self.active = False\n    def handle_event(self, event):\n        if event.type == pg.MOUSEBUTTONDOWN:\n            # If the user clicked on the input_box rect.",
+        "detail": "Snake Game.TextInput",
+        "documentation": {}
+    },
+    {
+        "label": "screen",
+        "kind": 5,
+        "importPath": "Snake Game.TextInput",
+        "description": "Snake Game.TextInput",
+        "peekOfCode": "screen = pg.display.set_mode((10, 10))\nCOLOR_INACTIVE = pg.Color(0, 0, 0)\nCOLOR_ACTIVE = pg.Color(25, 25, 25)\nFONT = pg.font.Font(None, 32)\nclass InputBox:\n    def __init__(self, x, y, w, h, text=''):\n        self.rect = pg.Rect(x, y, w, h)\n        self.color = COLOR_INACTIVE\n        self.text = text\n        self.txt_surface = FONT.render(text, True, self.color)",
+        "detail": "Snake Game.TextInput",
+        "documentation": {}
+    },
+    {
+        "label": "COLOR_INACTIVE",
+        "kind": 5,
+        "importPath": "Snake Game.TextInput",
+        "description": "Snake Game.TextInput",
+        "peekOfCode": "COLOR_INACTIVE = pg.Color(0, 0, 0)\nCOLOR_ACTIVE = pg.Color(25, 25, 25)\nFONT = pg.font.Font(None, 32)\nclass InputBox:\n    def __init__(self, x, y, w, h, text=''):\n        self.rect = pg.Rect(x, y, w, h)\n        self.color = COLOR_INACTIVE\n        self.text = text\n        self.txt_surface = FONT.render(text, True, self.color)\n        self.active = False",
+        "detail": "Snake Game.TextInput",
+        "documentation": {}
+    },
+    {
+        "label": "COLOR_ACTIVE",
+        "kind": 5,
+        "importPath": "Snake Game.TextInput",
+        "description": "Snake Game.TextInput",
+        "peekOfCode": "COLOR_ACTIVE = pg.Color(25, 25, 25)\nFONT = pg.font.Font(None, 32)\nclass InputBox:\n    def __init__(self, x, y, w, h, text=''):\n        self.rect = pg.Rect(x, y, w, h)\n        self.color = COLOR_INACTIVE\n        self.text = text\n        self.txt_surface = FONT.render(text, True, self.color)\n        self.active = False\n    def handle_event(self, event):",
+        "detail": "Snake Game.TextInput",
+        "documentation": {}
+    },
+    {
+        "label": "FONT",
+        "kind": 5,
+        "importPath": "Snake Game.TextInput",
+        "description": "Snake Game.TextInput",
+        "peekOfCode": "FONT = pg.font.Font(None, 32)\nclass InputBox:\n    def __init__(self, x, y, w, h, text=''):\n        self.rect = pg.Rect(x, y, w, h)\n        self.color = COLOR_INACTIVE\n        self.text = text\n        self.txt_surface = FONT.render(text, True, self.color)\n        self.active = False\n    def handle_event(self, event):\n        if event.type == pg.MOUSEBUTTONDOWN:",
+        "detail": "Snake Game.TextInput",
+        "documentation": {}
+    }
+]

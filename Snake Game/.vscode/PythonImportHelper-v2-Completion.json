@@ -1,0 +1,198 @@
+[
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "pygame",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pygame",
+        "description": "pygame",
+        "detail": "pygame",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "InputBox",
+        "importPath": "TextInput",
+        "description": "TextInput",
+        "isExtraImport": true,
+        "detail": "TextInput",
+        "documentation": {}
+    },
+    {
+        "label": "Requests",
+        "importPath": "Requests",
+        "description": "Requests",
+        "isExtraImport": true,
+        "detail": "Requests",
+        "documentation": {}
+    },
+    {
+        "label": "Requests",
+        "kind": 6,
+        "importPath": "Requests",
+        "description": "Requests",
+        "peekOfCode": "class Requests:\n    #  We send the result of the player and his nickname\n    def Post(player, score):\n        url = \"http://127.0.0.1:8000/api/add/\"\n        payload = {\"data\": {\"player\": player, \"score\": score}}\n        headers = {'Content-Type': 'application/json'}\n        requests.request(\"POST\", url, headers=headers, json=payload)\n    #  We get a list of the best players\n    def Get():\n        url = \"http://127.0.0.1:8000/api/get/\"",
+        "detail": "Requests",
+        "documentation": {}
+    },
+    {
+        "label": "GameOver",
+        "kind": 2,
+        "importPath": "Snake",
+        "description": "Snake",
+        "peekOfCode": "def GameOver():\n    clock = pygame.time.Clock()\n    text_input = InputBox(380, 185, 140, 32)\n    done = False\n    while not done:\n        for event in pygame.event.get():\n            if event.type == pygame.QUIT:  # If the user clicks on the cross, the game is closed\n                pygame.quit()  # Closing the game\n                sys.exit()  # Closing the program\n            player = text_input.handle_event(event)",
+        "detail": "Snake",
+        "documentation": {}
+    },
+    {
+        "label": "Score",
+        "kind": 2,
+        "importPath": "Snake",
+        "description": "Snake",
+        "peekOfCode": "def Score(choice=0):\n    text = pygame.font.SysFont('monaco', 26).render('Score: {0}'.format(score), True,\n                                                    pygame.Color(0, 0, 0))  # Font color, size and family\n    text_position = text.get_rect()\n    if choice == 0:\n        text_position.midtop = (40, 10)  # Text position\n    else:\n        text_position.midtop = (480, 125)  # Text position after 'Game over'\n    display.blit(text, text_position)\n    pygame.display.flip()",
+        "detail": "Snake",
+        "documentation": {}
+    },
+    {
+        "label": "errors",
+        "kind": 5,
+        "importPath": "Snake",
+        "description": "Snake",
+        "peekOfCode": "errors = pygame.init()  # Errors\ndisplay = pygame.display.set_mode((960, 540))  # Window size\npygame.display.set_caption('Snake Game')  # Window title\nfps = pygame.time.Clock()  # FPS\nposition = [100, 50]  # Start position\nsnake = [[100, 50], [90, 50], [80, 50]]  # snake size\n#  generating food\nfood = [random.randrange(1, 95) * 10, random.randrange(1, 53) * 10]\nspawn = True\npointer, direction = 'DOWN', 'DOWN'  # The initial movement of the snake",
+        "detail": "Snake",
+        "documentation": {}
+    },
+    {
+        "label": "display",
+        "kind": 5,
+        "importPath": "Snake",
+        "description": "Snake",
+        "peekOfCode": "display = pygame.display.set_mode((960, 540))  # Window size\npygame.display.set_caption('Snake Game')  # Window title\nfps = pygame.time.Clock()  # FPS\nposition = [100, 50]  # Start position\nsnake = [[100, 50], [90, 50], [80, 50]]  # snake size\n#  generating food\nfood = [random.randrange(1, 95) * 10, random.randrange(1, 53) * 10]\nspawn = True\npointer, direction = 'DOWN', 'DOWN'  # The initial movement of the snake\nscore = 0  # Start score",
+        "detail": "Snake",
+        "documentation": {}
+    },
+    {
+        "label": "fps",
+        "kind": 5,
+        "importPath": "Snake",
+        "description": "Snake",
+        "peekOfCode": "fps = pygame.time.Clock()  # FPS\nposition = [100, 50]  # Start position\nsnake = [[100, 50], [90, 50], [80, 50]]  # snake size\n#  generating food\nfood = [random.randrange(1, 95) * 10, random.randrange(1, 53) * 10]\nspawn = True\npointer, direction = 'DOWN', 'DOWN'  # The initial movement of the snake\nscore = 0  # Start score\n#  'Game over' window\ndef GameOver():",
+        "detail": "Snake",
+        "documentation": {}
+    },
+    {
+        "label": "position",
+        "kind": 5,
+        "importPath": "Snake",
+        "description": "Snake",
+        "peekOfCode": "position = [100, 50]  # Start position\nsnake = [[100, 50], [90, 50], [80, 50]]  # snake size\n#  generating food\nfood = [random.randrange(1, 95) * 10, random.randrange(1, 53) * 10]\nspawn = True\npointer, direction = 'DOWN', 'DOWN'  # The initial movement of the snake\nscore = 0  # Start score\n#  'Game over' window\ndef GameOver():\n    clock = pygame.time.Clock()",
+        "detail": "Snake",
+        "documentation": {}
+    },
+    {
+        "label": "snake",
+        "kind": 5,
+        "importPath": "Snake",
+        "description": "Snake",
+        "peekOfCode": "snake = [[100, 50], [90, 50], [80, 50]]  # snake size\n#  generating food\nfood = [random.randrange(1, 95) * 10, random.randrange(1, 53) * 10]\nspawn = True\npointer, direction = 'DOWN', 'DOWN'  # The initial movement of the snake\nscore = 0  # Start score\n#  'Game over' window\ndef GameOver():\n    clock = pygame.time.Clock()\n    text_input = InputBox(380, 185, 140, 32)",
+        "detail": "Snake",
+        "documentation": {}
+    },
+    {
+        "label": "food",
+        "kind": 5,
+        "importPath": "Snake",
+        "description": "Snake",
+        "peekOfCode": "food = [random.randrange(1, 95) * 10, random.randrange(1, 53) * 10]\nspawn = True\npointer, direction = 'DOWN', 'DOWN'  # The initial movement of the snake\nscore = 0  # Start score\n#  'Game over' window\ndef GameOver():\n    clock = pygame.time.Clock()\n    text_input = InputBox(380, 185, 140, 32)\n    done = False\n    while not done:",
+        "detail": "Snake",
+        "documentation": {}
+    },
+    {
+        "label": "spawn",
+        "kind": 5,
+        "importPath": "Snake",
+        "description": "Snake",
+        "peekOfCode": "spawn = True\npointer, direction = 'DOWN', 'DOWN'  # The initial movement of the snake\nscore = 0  # Start score\n#  'Game over' window\ndef GameOver():\n    clock = pygame.time.Clock()\n    text_input = InputBox(380, 185, 140, 32)\n    done = False\n    while not done:\n        for event in pygame.event.get():",
+        "detail": "Snake",
+        "documentation": {}
+    },
+    {
+        "label": "score",
+        "kind": 5,
+        "importPath": "Snake",
+        "description": "Snake",
+        "peekOfCode": "score = 0  # Start score\n#  'Game over' window\ndef GameOver():\n    clock = pygame.time.Clock()\n    text_input = InputBox(380, 185, 140, 32)\n    done = False\n    while not done:\n        for event in pygame.event.get():\n            if event.type == pygame.QUIT:  # If the user clicks on the cross, the game is closed\n                pygame.quit()  # Closing the game",
+        "detail": "Snake",
+        "documentation": {}
+    },
+    {
+        "label": "InputBox",
+        "kind": 6,
+        "importPath": "TextInput",
+        "description": "TextInput",
+        "peekOfCode": "class InputBox:\n    def __init__(self, x, y, w, h, text=''):\n        self.rect = pg.Rect(x, y, w, h)\n        self.color = COLOR_INACTIVE\n        self.text = text\n        self.txt_surface = FONT.render(text, True, self.color)\n        self.active = False\n    def handle_event(self, event):\n        if event.type == pg.MOUSEBUTTONDOWN:\n            # If the user clicked on the input_box rect.",
+        "detail": "TextInput",
+        "documentation": {}
+    },
+    {
+        "label": "screen",
+        "kind": 5,
+        "importPath": "TextInput",
+        "description": "TextInput",
+        "peekOfCode": "screen = pg.display.set_mode((10, 10))\nCOLOR_INACTIVE = pg.Color(0, 0, 0)\nCOLOR_ACTIVE = pg.Color(25, 25, 25)\nFONT = pg.font.Font(None, 32)\nclass InputBox:\n    def __init__(self, x, y, w, h, text=''):\n        self.rect = pg.Rect(x, y, w, h)\n        self.color = COLOR_INACTIVE\n        self.text = text\n        self.txt_surface = FONT.render(text, True, self.color)",
+        "detail": "TextInput",
+        "documentation": {}
+    },
+    {
+        "label": "COLOR_INACTIVE",
+        "kind": 5,
+        "importPath": "TextInput",
+        "description": "TextInput",
+        "peekOfCode": "COLOR_INACTIVE = pg.Color(0, 0, 0)\nCOLOR_ACTIVE = pg.Color(25, 25, 25)\nFONT = pg.font.Font(None, 32)\nclass InputBox:\n    def __init__(self, x, y, w, h, text=''):\n        self.rect = pg.Rect(x, y, w, h)\n        self.color = COLOR_INACTIVE\n        self.text = text\n        self.txt_surface = FONT.render(text, True, self.color)\n        self.active = False",
+        "detail": "TextInput",
+        "documentation": {}
+    },
+    {
+        "label": "COLOR_ACTIVE",
+        "kind": 5,
+        "importPath": "TextInput",
+        "description": "TextInput",
+        "peekOfCode": "COLOR_ACTIVE = pg.Color(25, 25, 25)\nFONT = pg.font.Font(None, 32)\nclass InputBox:\n    def __init__(self, x, y, w, h, text=''):\n        self.rect = pg.Rect(x, y, w, h)\n        self.color = COLOR_INACTIVE\n        self.text = text\n        self.txt_surface = FONT.render(text, True, self.color)\n        self.active = False\n    def handle_event(self, event):",
+        "detail": "TextInput",
+        "documentation": {}
+    },
+    {
+        "label": "FONT",
+        "kind": 5,
+        "importPath": "TextInput",
+        "description": "TextInput",
+        "peekOfCode": "FONT = pg.font.Font(None, 32)\nclass InputBox:\n    def __init__(self, x, y, w, h, text=''):\n        self.rect = pg.Rect(x, y, w, h)\n        self.color = COLOR_INACTIVE\n        self.text = text\n        self.txt_surface = FONT.render(text, True, self.color)\n        self.active = False\n    def handle_event(self, event):\n        if event.type == pg.MOUSEBUTTONDOWN:",
+        "detail": "TextInput",
+        "documentation": {}
+    }
+]
