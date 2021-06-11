@@ -10,9 +10,9 @@ This is a game in which the player controls a long, thin creature resembling a s
 
 ## How to run?
 In order to run this project you need:
-1. Installation `requirements.txt` file with the `pip install -r requarements.txt` command
-2. Run `Server` with the `python manage.py runserver` command
-3. In the `Snake Game` folder, run the file `Snake.py`
+1) Installation `requirements.txt` file with the `pip install -r requirements.txt` command
+2) Run `Server` with the `python manage.py runserver` command
+3) In the `Snake Game` folder, run the file `Snake.py`
 
 ## Admin account (test account)
 * Username: admin
